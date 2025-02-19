@@ -1,0 +1,25 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  align-self: end;
+  margin-bottom: 25px;
+
+  padding-right: 15%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+.photo {
+  width: 70%;
+  height: auto;
+
+  margin-top: 10px;
+}
