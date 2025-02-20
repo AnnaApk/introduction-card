@@ -1,9 +1,12 @@
 .box {
   display: flex;
   gap: 25px;
+  align-items: center;
 
   width: fit-content;
 }
 .text {
   text-transform: uppercase;
+
+  margin: 0;
 }

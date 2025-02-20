@@ -17,13 +17,16 @@ export default function Home() {
       </header>
       <main className={styles.main}>
 
+       
         <Info >
           <Bans />
         </Info>
        
         {/* <Gallery /> */}
 
-        <Link href='https://google.com' target="blanket" >GOOGLE</Link>
+        <Link href='https://google.com' target="blanket" >View Financial Documents</Link>
+
+        <p>Feel free to contact us at [email@example.com] or WhatsApp: +34 XXX-XXX-XXX.</p>
 
         <Image src={us} alt=" " className={styles.photo} />
 
