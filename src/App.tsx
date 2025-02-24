@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Language } from './types';
 import { familyInfoEN, familyInfoES, contactInfo, documents } from './data';
+import img from "./assets/DSC_6760.jpg";
 import LanguageSwitch from './components/LanguageSwitch';
 import FamilyCard from './components/FamilyCard';
 import ContactSection from './components/ContactSection';
@@ -38,7 +39,7 @@ function App() {
       
       <section className="hero">
         <img
-          src="https://downloader.disk.yandex.ru/preview/493b853b8126d1b1a05f12c2181e6d4dac8316bdab88f77924782ebada96ab12/67b88a43/pazLaW2cvITp6h43xhSIt6RGZzNQ9Y4EhHNlfnkVz2GeGxHp_8PP0gs3ihURF5UWo2RhCUBYHK4OpK9M48k8CQ%3D%3D?uid=0&filename=DSC_6760.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048"
+          src={img}
           alt="Our Family"
         />
         <h1>{t.title}</h1>
